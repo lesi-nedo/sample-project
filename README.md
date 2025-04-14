@@ -3,6 +3,9 @@
 
 This project demonstrates how to set up a web application using TypeScript, Svelte v5.x, Tailwind v4.x, and Rollup v4.x for the frontend, integrated with either a Django or Flask backend.
 
+This setup is the result of the blog post: [Svelte + Tailwind with Rollup and Django/FastAPI as the backend](https://nedo.im/blog/2025/04/14/svelte-tailwind-with-rollup-and-djangoflask-as-the-backend)
+
+
 ## Prerequisites
 
 - Node.js (v22.14.0 or later recommended)
@@ -198,7 +201,7 @@ Update the `scripts` section in `myfrontend/package.json` to include build and d
     Open a **new terminal**, activate the virtual environment, and navigate to `flask_back`.
     ```bash
     cd ../flask_back
-    # conda activate myproject (if needed)
+    # conda activate myproject (if needed)http://127.0.0.1:8000/blog/2025/04/12/svelte-tailwind-with-rollup-and-djangofastapi-as-the-backend
     flask run --debug
     ```
     Access the app at `http://127.0.0.1:5000/` (or the port specified by Flask).
