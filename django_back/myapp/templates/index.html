@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+{% load static %}
+
+
+{% block link_head %}
+<link rel="stylesheet" href="{% static 'frontend/css/app.css' %}">
+{% endblock %}
+
+{% block content %}
+<p>Hello, World!</p>
+<p>This is the index page of my Django app.</p>
+{% endblock %}
+{% block script_body %}
+<script src="{% static 'frontend/js/bundle.js' %}"></script>
+{% endblock %}
